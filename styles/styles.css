@@ -1,0 +1,58 @@
+/*h2 {
+    color: aqua;
+    text-align: center;
+}
+.heading {
+     color: brown;
+}
+#heading{
+    color: chartreuse;
+}*/
+@font-face{
+    font-family: Rob;
+    src: url("font/RobotoSlab-VariableFont_wght.ttf");
+}
+.box{
+    font-family: Rob,sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: green;
+    background-color: aquamarine;
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+/*body{
+    background-color: rgb(127, 255, 212);
+}*/
+body{
+    font-family: rob;
+}
+.article{
+    width: 50%;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px;
+    
+}
+.article-img{
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+.heading{
+    color: #19a8b0;
+}
+.sub-heading{
+    color: #999;
+}
+.article-paragraph{
+    color: #888;
+    text-align: justify;
+}

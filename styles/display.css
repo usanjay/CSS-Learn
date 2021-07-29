@@ -1,0 +1,11 @@
+.item{
+    border: 2px solid red;
+    width: 150px;
+    height: 100px;
+
+}
+.container{
+    border: 2px solid green;
+    display: flex;
+    flex-flow: wrap;
+}

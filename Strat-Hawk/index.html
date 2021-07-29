@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strat Hawk</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <div class="nav">
+        <h1 class="logo">Strat Hawk</h1>
+        <a class="nav-i" href="index.html";>Home</a>
+        <a class="nav-i" href="booking.html";>My Bookings</a>
+        <a class="nav-i" href="destination.html";>Destinations</a>
+        <a class="nav-i" href="login.html";>Login</a>
+        <a class="nav-i" href="signup.html";>Signup</a>
+        </div>        
+        <img class="banner" src="images/flight.jpeg" width="35%">
+        <div class="shading"></div>
+        <h2 class="text-banner">The World is yours.</h2>
+        <div class="search-form-container">
+            <h2 class="heading">Search Flights</h2>
+            <form action="index.html">
+                <div class="search-element-container">
+                    <div class="form-group">
+                        <input class="form-input" type="text" name="from" placeholder="From" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" type="text" name="to" placeholder="To" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="travelDate" placeholder="Travel Date yyyy-mm-dd" 
+                           class="form-input" pattern="([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))" 
+                           title="yyyy-mm-dd" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="class" class="form-input ">
+                            <option>Economy</option>
+                            <option>Business</option>
+                            <option>First</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="Search" class="btn">
+            </form>
+        </div>
+
+        
+        <!-- <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Flight</th>
+                <th>Departure</th>
+                <th>Duration</th>
+                <th>Arrival</th>
+                <th>Cost</th>
+                <th>Book</th>
+            </tr>
+            <tr>
+                <td>SH288</td>
+                <td>
+                    <div>Berline(BER) </div> 
+                    <div>21:00 </div>
+                    <div> Wed 28 Oct 2021</div>
+                </td>
+                <td>49 hrs 5 min</td>
+                <td>
+                    <div>Sydney(SYN) </div>
+                    <div> 08:05 </div>
+                    <div> Sat 31 Oct 2021</div>
+                </td>
+                <td>$3000</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SH244</td>
+                <td>
+                    <div>Sydney (SYD)</div>
+                    <div>22:25</div>
+                    <div>Tue 10 Nov 2020</div>
+                </td>
+                <td>23 hrs 55 mins</td>
+                <td>
+                    <div>Berlin (BER)</div>
+                    <div>12:20</div>
+                    <div>Wed 11 Nov 2020</div>
+                </td>
+                <td>$2500</td>
+                <td></td>
+            </tr>
+        </table>-->
+        <div class="recommended-flights">
+            <h2 class="heading-recommended-flights">Recommended Flights</h2>
+            <div class="flights">
+                <div class="flight">
+                    <div class="flight-number">SH288</div>
+                    <div class="schedule">
+                        <div class="departure">
+                            <div class="from">Sydney(SYD)</div>
+                            <div class="departTime">22:25</div>
+                            <div class="departDate">Tue 10 Augest 2021</div>
+                        </div>
+                        <div class="duration">22 hrs 55 mins</div>
+                        <div class="arrival">
+                            <div class="to">India(IND)</div>
+                            <div class="arrivalTime">3:44</div>
+                            <div class="arrivalDate">Wed 11 Augst 2021</div>
+                        </div>
+                    </div>
+                    <div class="cost">$600</div>
+                    <form action="booking.html" >
+                        <input type="submit" class="btn" name="Book" value="Book">
+                    </form>
+                </div>
+                <div class="flight">
+                    <div class="flight-number">SH355</div>
+                    <div class="schedule">
+                        <div class="departure">
+                            <div class="from">India(IND)</div>
+                            <div class="departTime">5:25</div>
+                            <div class="departDate">Sun 15 Augest 2021</div>
+                        </div>
+                        <div class="duration">11 hrs 55 mins</div>
+                        <div class="arrival">
+                            <div class="to">Berlin(BER)</div>
+                            <div class="arrivalTime">16:44</div>
+                            <div class="arrivalDate">Mon 16 Augst 2021</div>
+                        </div>
+                    </div>
+                    <div class="cost">$400</div>
+                    <form action="booking.html" >
+                        <input type="submit" class="btn" name="book" value="Book">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

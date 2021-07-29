@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    font-family: "Roboto slab", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: #fbecec;
+}
+.header {
+    background-color: #440047;
+    border-bottom: 0.5rem solid #91D18B;
+}
+.logo {
+    color: #FBECEC;
+    padding: 1.5rem;
+    margin: 0px;
+}
+.footer {
+    /* clear: both; */
+    color: #fbecec;
+    background-color: #440047;
+    padding: 1.2rem;
+}
+.category-column {
+    width: 25%;
+    /* float: left; */
+    padding: 1.2rem;
+}
+.headline-column {
+    width: 50%;
+    /* float: left; */
+    padding:  1.2rem;
+}
+.weather-column {
+    width: 25%;
+    /* float: left; */
+    padding:  1.2rem;
+}
+.heading {
+    color: #E11D74;
+    margin: 1.2rem;
+}
+.content {
+    border: 0.1rem solid #91D18B;
+    border-radius: 0.4rem;
+    color: #440047;
+}
+.news-titles, .category-items {
+    margin: 1.2rem;
+}
+.weather-report {
+    text-align: center;
+    font-size: 6rem;
+    color: #91D18B;
+}
+.news-titles:hover{
+    color: #E11D74;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+}

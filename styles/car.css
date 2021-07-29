@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;400&display=swap');
+body {
+    margin: 0;
+    font-family: "advent pro";
+}
+.car-banner{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.nav-item{
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.nav-item:hover{
+    border-bottom: 2px solid aliceblue;
+    cursor: pointer;
+    
+}
+.shading{
+    height: 109%;
+    width: 100%;
+    background-color: #036100;
+    position: absolute;
+    opacity: 0.3;
+    z-index: 2;
+}
+.banner-text{
+    position: absolute;
+    z-index: 4;
+    font-size: 6rem;
+    color: aliceblue;
+    top: 8rem;
+    left: 36rem;
+    font-weight: 100;
+}
